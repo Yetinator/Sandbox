@@ -12,3 +12,6 @@ class Controller():
 
     def init_model(self):
         self.model = model.Model()
+
+    def dummyMath(self, a, b):
+        return self.model.add(a, b)
